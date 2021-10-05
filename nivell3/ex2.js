@@ -1,3 +1,3 @@
-(function(nombre){
+let auto = function(nombre){
     console.log(nombre); 
-})("Alejandro")
+}("Alejandro")

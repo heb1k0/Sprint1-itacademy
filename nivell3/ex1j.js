@@ -4,19 +4,10 @@ function mostrar(){
     }
 }
 
-var arrFunc = [
-    mostrar(),
-    mostrar(),
-    mostrar(),
-    mostrar(),
-    mostrar(),
-    mostrar(),
-    mostrar(),
-    mostrar(),
-    mostrar(),
-    mostrar(),
-]
+var arrFunc = new Array(10)
+arrFunc.fill(mostrar)
 
 for (var i = 0; i < arrFunc.length; i++) {
-    arrFunc[i];
+    arrFunc[i][mostrar()]
+    console.log(`Vuelta ${i}`)
 }
