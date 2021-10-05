@@ -24,7 +24,6 @@ arrFunc.fill(mostrar)
 
 for (var i = 0; i < arrFunc.length; i++) {
     arrFunc[i][mostrar()]
-    console.log(`Vuelta ${i}`)
 }
 
 /* Exercici 2: Crea una funció anònima autoinvocable igualada a una variable que mostri per consola el nom de l'usuari rebut com a paràmetre. */
